@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logan Barber Studio · La mejor barbería de Malabo</title>
+  <meta name="description" content="Logan Barber Studio, en Candy Vista Puerto (antiguo Baby Claudia), Malabo. Desvanecimientos frescos, líneas afiladas, barba, trenzas, estética y sesión VIP con PS5, snooker y bebidas. Reserva tu cita online." />
+  <meta name="theme-color" content="#1C1917" />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 + Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <!-- Estilos propios -->
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <!-- Datos estructurados (SEO local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Logan Barber Studio",
+    "telephone": "+35 009 70 16",
+    "slogan": "No cortamos el pelo. Construimos confianza.",
+    "sameAs": ["https://www.instagram.com/logan_barberstudio/", "https://www.instagram.com/loganthe_barber/"],
+    "address": { "@type": "PostalAddress", "streetAddress": "Candy Vista Puerto (antiguo Baby Claudia)", "addressLocality": "Malabo", "addressRegion": "Bioko Norte", "addressCountry": "GQ" },
+    "openingHours": ["Mo-Fr 09:00-20:00", "Sa 09:00-19:00"],
+    "priceRange": "3.000 – 35.000 FCFA", "currenciesAccepted": "XAF"
+  }
+  </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90">
+
+  <!-- ===================== HEADER / NAVBAR ===================== -->
+  <header id="header" class="site-header fixed-top">
+    <nav id="mainNav" class="navbar navbar-expand-lg" aria-label="Principal">
+      <div class="container">
+        <a class="navbar-brand brand" href="#inicio">
+          Logan <small>Barber Studio</small>
+        </a>
+
+        <a href="#reservas" class="btn btn-ink btn-sm rounded-pill px-3 ms-auto me-2 d-none d-md-inline-block d-lg-none">Reservar</a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú">
+          <i class="bi bi-list fs-2"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav mx-auto gap-lg-3 gap-xl-4">
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Trabajos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#opiniones">Opiniones</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+          <a href="#reservas" class="btn btn-ink rounded-pill px-4 d-none d-lg-inline-block text-nowrap">Reservar cita</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6 reveal">
+            <span class="eyebrow-pill"><span class="dot"></span> La mejor barbería de Malabo 🇬🇶</span>
+            <h1 class="display-title mt-4">No cortamos el pelo.<br /><em>Construimos confianza.</em></h1>
+            <p class="lead-text mt-4">
+              Desvanecimientos frescos, líneas afiladas, barbas a navaja, trenzas y estética. Más que un corte de cabello: es un estilo de vida. El sitio se ve de lujo, pero nuestros precios son para todos.
+            </p>
+            <div class="d-flex flex-column flex-sm-row gap-3 mt-4 pt-2">
+              <a href="#reservas" class="btn btn-terra btn-lg rounded-pill px-5 btn-arrow">Reservar cita <i class="bi bi-arrow-right"></i></a>
+              <a href="#servicios" class="btn btn-outline-ink btn-lg rounded-pill px-5">Ver servicios</a>
+            </div>
+            <div class="hero-proof mt-5">
+              <span><i class="bi bi-gem text-terra me-1"></i> <strong>Sesión VIP</strong> · PS5 · snooker</span>
+              <span class="divider"></span>
+              <span><i class="bi bi-geo-alt text-terra me-1"></i> <strong>Candy Vista Puerto</strong></span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <div class="hero-media">
+              <!-- Sustituir por: <img src="assets/img/hero.jpg" alt="..." class="hero-img"> -->
+              <div class="ph ph-1 hero-img" role="img" aria-label="Foto principal del salón">
+                <span class="ph-label">Foto principal · 1200×1500</span>
+              </div>
+              <div class="ph ph-2 hero-thumb d-none d-sm-block" role="img" aria-label="Detalle de un trabajo"></div>
+              <div class="hero-badge">
+                <small>Desvanecimientos frescos</small>
+                <strong>Líneas afiladas</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICIOS Y PRECIOS ===================== -->
+    <section id="servicios" class="section section-dark">
+      <div class="container">
+        <div class="row align-items-end g-4 reveal">
+          <div class="col-md-7">
+            <p class="eyebrow text-gold">Servicios y precios</p>
+            <h2 class="section-title">Lo que hacemos (y muy bien)</h2>
+          </div>
+          <div class="col-md-5">
+            <p class="text-soft mb-0">Cada servicio empieza con una consulta rápida y gratuita: hablamos de lo que quieres, de tu tipo de pelo y de cómo mantenerlo en casa.</p>
+          </div>
+        </div>
+
+        <!-- Pestañas de categorías: se cargan desde la base de datos (api/catalogo.php) -->
+        <ul class="nav service-tabs mt-5 reveal" id="serviceTabs" role="tablist"></ul>
+        <div class="tab-content mt-4" id="serviceTabsContent"></div>
+
+        <p class="small text-soft mt-4 mb-0 reveal"><i class="bi bi-info-circle me-1"></i> No te asustes por el lujo: tenemos precios normales y accesibles para todos. Precios orientativos en francos CFA (FCFA); en trenzas, color y tratamientos el precio final depende del largo y el volumen del cabello y te lo confirmamos antes de empezar.</p>
+      </div>
+    </section>
+
+    <!-- ===================== LA EXPERIENCIA LOGAN ===================== -->
+    <section id="experiencia" class="section">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-center">
+          <div class="col-lg-6 reveal">
+            <p class="eyebrow text-terra">La experiencia Logan</p>
+            <h2 class="section-title">Mucho más que una barbería</h2>
+            <p class="text-muted-ink mt-3">Un espacio donde el estilo se une a la elegancia y el lujo a la accesibilidad. Ven, conoce el lugar y quédate un rato: aquí cada detalle cuenta.</p>
+            <ul class="experience-list list-unstyled mt-4">
+              <li><i class="bi bi-gem"></i><div><strong>Sesión VIP</strong><span>Zona privada para un servicio completo y sin prisas.</span></div></li>
+              <li><i class="bi bi-flower2"></i><div><strong>Estética y belleza</strong><span>Limpiezas y tratamientos faciales además del corte.</span></div></li>
+              <li><i class="bi bi-controller"></i><div><strong>PS5 y snooker</strong><span>Para que la espera también se disfrute.</span></div></li>
+              <li><i class="bi bi-cup-straw"></i><div><strong>Bebidas</strong><span>Algo fresco mientras te ponemos guapo o guapa.</span></div></li>
+              <li><i class="bi bi-stars"></i><div><strong>Siempre limpio</strong><span>Lo mantenemos impecable, cliente tras cliente.</span></div></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 reveal">
+            <!-- Vídeo de presentación publicado en Instagram (15/10/2026) -->
+            <div class="video-wrap">
+              <iframe src="https://www.instagram.com/reel/DehBRsGsodt/embed/" title="Vídeo de presentación de Logan Barber Studio" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALERÍA ===================== -->
+    <section id="galeria" class="section">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="eyebrow text-terra">Nuestros trabajos</p>
+          <h2 class="section-title">Resultados que se notan</h2>
+          <p class="text-muted-ink mx-auto mt-3" style="max-width: 560px">Cada foto es de una clienta o cliente real que salió por la puerta con una sonrisa (y con permiso para enseñarla).</p>
+        </div>
+
+        <div class="gallery-filters d-flex flex-wrap justify-content-center gap-2 mt-4 reveal" role="group" aria-label="Filtrar galería">
+          <button class="btn btn-chip active" data-filter="all">Todo</button>
+          <button class="btn btn-chip" data-filter="trenzas">Trenzas</button>
+          <button class="btn btn-chip" data-filter="corte">Cortes</button>
+          <button class="btn btn-chip" data-filter="barberia">Barbería</button>
+          <button class="btn btn-chip" data-filter="antes">Antes / Después</button>
+        </div>
+
+        <!-- Cada .gallery-item: sustituir el div .ph por <img src="assets/img/..." alt="..."> -->
+        <div class="gallery-grid mt-4" id="galleryGrid">
+          <figure class="gallery-item big" data-cat="barberia" data-title="Degradado + barba" data-author="Logan">
+            <div class="ph ph-2"></div>
+            <figcaption><strong>Degradado + barba</strong><span>por Logan</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="antes" data-title="Antes / Después · Rastas" data-author="el equipo">
+            <div class="ph ph-2"></div>
+            <span class="tag">Antes / Después</span>
+            <figcaption><strong>Mantenimiento de rastas</strong><span>por el equipo</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="corte" data-title="Corte texturizado" data-author="Logan">
+            <div class="ph ph-3"></div>
+            <figcaption><strong>Corte texturizado</strong><span>por Logan</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="barberia" data-title="Corte con diseño" data-author="Prince">
+            <div class="ph ph-2"></div>
+            <figcaption><strong>Corte con diseño</strong><span>por Prince</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="trenzas" data-title="Box braids" data-author="el equipo">
+            <div class="ph ph-3"></div>
+            <figcaption><strong>Box braids</strong><span>por el equipo</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="trenzas" data-title="Trenzas pegadas" data-author="el equipo">
+            <div class="ph ph-1"></div>
+            <figcaption><strong>Trenzas pegadas</strong><span>por el equipo</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="antes" data-title="Antes / Después · Hidratación" data-author="el equipo">
+            <div class="ph ph-3"></div>
+            <span class="tag">Antes / Después</span>
+            <figcaption><strong>Hidratación profunda</strong><span>por el equipo</span></figcaption>
+          </figure>
+          <figure class="gallery-item" data-cat="barberia" data-title="Barba perfilada" data-author="Babs">
+            <div class="ph ph-1"></div>
+            <figcaption><strong>Barba perfilada</strong><span>por Babs</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="insta-cta mt-5 reveal">
+          <p class="mb-0">¿Quieres ver más? Te enseñamos el día a día en Instagram.</p>
+          <a href="https://www.instagram.com/logan_barberstudio/" target="_blank" rel="noopener" class="btn btn-ink rounded-pill px-4"><i class="bi bi-instagram me-2"></i>Síguenos @logan_barberstudio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox de galería -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content lightbox">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          <div class="lightbox-media" id="lightboxMedia"></div>
+          <div class="p-4">
+            <h3 class="h4 font-display mb-1" id="lightboxTitle"></h3>
+            <p class="small text-muted-ink mb-3" id="lightboxAuthor"></p>
+            <a href="#reservas" class="btn btn-terra rounded-pill px-4" data-bs-dismiss="modal">Quiero este look</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== QUIÉNES SOMOS / EQUIPO ===================== -->
+    <section id="equipo" class="section section-sand">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-center">
+          <div class="col-lg-5 reveal">
+            <p class="eyebrow text-terra">Quiénes somos</p>
+            <h2 class="section-title">Construido con visión, pasión y propósito</h2>
+            <p class="text-muted-ink mt-3">Logan Barber Studio abrió sus puertas en 2026 en Candy Vista Puerto, en el antiguo Baby Claudia. Un sueño hecho realidad y el comienzo de un nuevo capítulo para la barbería en Guinea Ecuatorial.</p>
+            <p class="text-muted-ink">Un buen corte no es un lujo: es tu mejor presentación. Nuestro equipo de barberos lleva tu look al siguiente nivel, para que tu estilo hable por ti.</p>
+            <ul class="values list-unstyled mt-4">
+              <li><i class="bi bi-scissors"></i> Desvanecimientos frescos y líneas afiladas</li>
+              <li><i class="bi bi-cash-coin"></i> Precios accesibles para todos</li>
+              <li><i class="bi bi-stars"></i> Siempre lo mantenemos limpio</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="row g-3 g-md-4" id="teamGrid"><!-- Equipo cargado desde la base de datos --></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIOS ===================== -->
+    <section id="opiniones" class="section">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-end gap-3 reveal">
+          <div>
+            <p class="eyebrow text-terra">Opiniones</p>
+            <h2 class="section-title mb-0">Lo dicen en Instagram</h2>
+          </div>
+          <div class="d-none d-md-flex gap-2">
+            <button class="btn btn-round" data-scroll="-1" aria-label="Anterior"><i class="bi bi-arrow-left"></i></button>
+            <button class="btn btn-round" data-scroll="1" aria-label="Siguiente"><i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="testimonials mt-4" id="testimonials">
+          <!-- Comentarios reales del reel de presentación (Instagram, octubre 2026) -->
+          <blockquote class="testimonial">
+            <i class="bi bi-instagram text-terra"></i>
+            <p>“La mejor ❤️❤️❤️”</p>
+            <footer><strong>@rafael_eyene_</strong> · Instagram</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <i class="bi bi-instagram text-terra"></i>
+            <p>“Está todo muy bien pensado.”</p>
+            <footer><strong>@inocenciotamaritemajeda</strong> · Instagram</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <i class="bi bi-instagram text-terra"></i>
+            <p>“Muy buena la publicidad, y la chica que lo hace muy bien 🔥🔥”</p>
+            <footer><strong>@ynggerman6</strong> · Instagram</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <i class="bi bi-instagram text-terra"></i>
+            <p>“No1 ❤️🔥”</p>
+            <footer><strong>@skillzcutz_locs1</strong> · Instagram</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESERVAS ===================== -->
+    <section id="reservas" class="section section-sand">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="eyebrow text-terra">Reserva online · 24/7</p>
+          <h2 class="section-title">Tu próxima cita, en cuatro pasos</h2>
+          <p class="text-muted-ink mx-auto mt-3" style="max-width: 560px">Elige servicio, profesional y hora. Te confirmamos al momento y te recordamos la cita el día antes.</p>
+        </div>
+
+        <div class="row g-4 mt-3">
+          <!-- Formulario por pasos -->
+          <div class="col-lg-8">
+            <div class="booking-card">
+              <ol class="booking-steps" id="bookingSteps">
+                <li class="active" data-step="1"><span>1</span> Servicio</li>
+                <li data-step="2"><span>2</span> Profesional</li>
+                <li data-step="3"><span>3</span> Fecha y hora</li>
+                <li data-step="4"><span>4</span> Tus datos</li>
+              </ol>
+
+              <form id="bookingForm" novalidate>
+                <!-- Paso 1 -->
+                <div class="booking-pane active" data-pane="1">
+                  <h3 class="pane-title">¿Qué te hacemos?</h3>
+                  <div class="d-flex flex-wrap gap-2 mb-3" id="bookingCats"></div>
+                  <div class="option-list" id="bookingServices"></div>
+                </div>
+
+                <!-- Paso 2 -->
+                <div class="booking-pane" data-pane="2">
+                  <h3 class="pane-title">¿Con quién?</h3>
+                  <div class="row g-3" id="bookingStaff"></div>
+                </div>
+
+                <!-- Paso 3 -->
+                <div class="booking-pane" data-pane="3">
+                  <h3 class="pane-title">¿Cuándo te viene bien?</h3>
+                  <div class="date-strip" id="dateStrip"></div>
+                  <p class="small fw-semibold mt-4 mb-2">Horas disponibles <span class="text-muted-ink fw-normal" id="slotsDay"></span></p>
+                  <div class="slots" id="timeSlots"></div>
+                </div>
+
+                <!-- Paso 4 -->
+                <div class="booking-pane" data-pane="4">
+                  <h3 class="pane-title">Casi está. ¿A nombre de quién?</h3>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="fName" class="form-label">Nombre y apellido</label>
+                      <input type="text" class="form-control" id="fName" required autocomplete="name" />
+                      <div class="invalid-feedback">Dinos cómo te llamas.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="fPhone" class="form-label">Teléfono</label>
+                      <input type="tel" class="form-control" id="fPhone" required pattern="^[+0-9\s]{9,15}$" autocomplete="tel" placeholder="222 000 000" />
+                      <div class="invalid-feedback">Necesitamos un teléfono válido para confirmarte.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="fEmail" class="form-label">Email <span class="text-muted-ink">(opcional)</span></label>
+                      <input type="email" class="form-control" id="fEmail" autocomplete="email" />
+                      <div class="invalid-feedback">Revisa el formato del email.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="fNotes" class="form-label">¿Algo que debamos saber? <span class="text-muted-ink">(opcional)</span></label>
+                      <textarea class="form-control" id="fNotes" rows="3" placeholder="Ej.: quiero un cambio de look, tengo el cuero cabelludo sensible…"></textarea>
+                    </div>
+                    <!-- Trampa anti-bots: oculta para las personas, los bots suelen rellenarla -->
+                    <div class="hp-field" aria-hidden="true">
+                      <label for="fWebsite">No rellenes este campo</label>
+                      <input type="text" id="fWebsite" name="website" tabindex="-1" autocomplete="off" />
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="fPrivacy" required />
+                        <label class="form-check-label small" for="fPrivacy">Acepto la <a href="#" class="link-terra">política de privacidad</a> y que me contactéis para gestionar la cita.</label>
+                        <div class="invalid-feedback">Necesitamos tu consentimiento para guardar la reserva.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Navegación -->
+                <div class="booking-nav">
+                  <button type="button" class="btn btn-link-ink" id="prevStep" disabled><i class="bi bi-arrow-left me-1"></i> Atrás</button>
+                  <button type="button" class="btn btn-terra rounded-pill px-4" id="nextStep" disabled>Continuar <i class="bi bi-arrow-right ms-1"></i></button>
+                </div>
+              </form>
+
+              <!-- Pantalla de éxito -->
+              <div class="booking-success d-none" id="bookingSuccess">
+                <div class="success-icon"><i class="bi bi-check-lg"></i></div>
+                <h3 class="font-display display-6 mt-3">¡Reserva confirmada!</h3>
+                <p class="text-muted-ink" id="successText"></p>
+                <p class="booking-code mb-0">Código de reserva: <strong id="bookingCode"></strong></p>
+                <p class="small text-muted-ink mt-2 mb-0">Guárdalo por si necesitas cambiar o cancelar la cita.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-2 mt-4">
+                  <button class="btn btn-ink rounded-pill px-4" id="addCalendar"><i class="bi bi-calendar-plus me-2"></i>Añadir al calendario</button>
+                  <button class="btn btn-outline-ink rounded-pill px-4" id="newBooking">Hacer otra reserva</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resumen + contacto rápido -->
+          <div class="col-lg-4">
+            <aside class="summary-card" aria-live="polite">
+              <p class="eyebrow text-gold mb-3">Tu reserva</p>
+              <dl class="summary-list">
+                <div><dt>Servicio</dt><dd id="sumService">—</dd></div>
+                <div><dt>Profesional</dt><dd id="sumStaff">—</dd></div>
+                <div><dt>Fecha</dt><dd id="sumDate">—</dd></div>
+                <div><dt>Hora</dt><dd id="sumTime">—</dd></div>
+                <div><dt>Duración</dt><dd id="sumDuration">—</dd></div>
+              </dl>
+              <div class="summary-total">
+                <span>Precio orientativo</span>
+                <strong id="sumPrice">—</strong>
+              </div>
+            </aside>
+
+            <div class="help-card mt-4">
+              <p class="fw-semibold mb-1">¿Dudas antes de reservar?</p>
+              <p class="small text-muted-ink mb-3">Escríbenos y te asesoramos sin compromiso.</p>
+              <div class="d-grid gap-2">
+                <a href="https://wa.me/240551997403" target="_blank" rel="noopener" class="btn btn-outline-ink rounded-pill"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
+                <a href="tel:+240350097016" class="btn btn-outline-ink rounded-pill"><i class="bi bi-telephone me-2"></i>+35 009 70 16</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO Y UBICACIÓN ===================== -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow text-terra">Contacto y ubicación</p>
+          <h2 class="section-title">Ven a vernos</h2>
+        </div>
+
+        <div class="row g-4 mt-2">
+          <div class="col-lg-7 reveal">
+            <div class="map-wrap">
+              <iframe title="Mapa de ubicación de Logan Barber Studio" src="https://www.google.com/maps?q=Candy+Vista+Puerto,+Malabo,+Guinea+Ecuatorial&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="info-card reveal">
+              <div class="info-row">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <p class="info-label">Dirección</p>
+                  <p class="mb-0">Candy Vista Puerto (antiguo Baby Claudia)<br />Malabo, Guinea Ecuatorial</p>
+                  <a href="https://maps.google.com/?q=Candy+Vista+Puerto,+Malabo,+Guinea+Ecuatorial" target="_blank" rel="noopener" class="link-terra small fw-semibold">Cómo llegar <i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-telephone"></i>
+                <div>
+                  <p class="info-label">Teléfono</p>
+                  <a href="tel:+240350097016" class="fs-5 fw-semibold text-ink text-decoration-none">+35 009 70 16</a>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-whatsapp"></i>
+                <div>
+                  <p class="info-label">WhatsApp</p>
+                  <a href="https://wa.me/240551997403" target="_blank" rel="noopener" class="fs-5 fw-semibold text-ink text-decoration-none">+240 555 160 160</a>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-instagram"></i>
+                <div>
+                  <p class="info-label">Instagram</p>
+                  <a href="https://www.instagram.com/logan_barberstudio/" target="_blank" rel="noopener" class="text-ink">@logan_barberstudio</a> · <a href="https://www.instagram.com/loganthe_barber/" target="_blank" rel="noopener" class="text-ink">@loganthe_barber</a>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-clock"></i>
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <p class="info-label mb-0">Horario</p>
+                    <span class="open-badge" id="openBadge"></span>
+                  </div>
+                  <ul class="hours list-unstyled mt-2 mb-0" id="hoursList"><!-- Horario cargado desde la base de datos --></ul>
+                </div>
+              </div>
+
+              <div class="d-flex gap-2 mt-4">
+                <a href="https://www.instagram.com/logan_barberstudio/" target="_blank" rel="noopener" class="btn btn-round" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/240551997403" target="_blank" rel="noopener" class="btn btn-round" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <span class="brand">Logan <small>Barber Studio</small></span>
+      <p class="mb-0 small">© <span id="year"></span> Logan Barber Studio</p>
+      <div class="d-flex gap-3 small">
+        <a href="#">Aviso legal</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Cookies</a>
+        <a href="admin.html" rel="nofollow">Acceso equipo</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== BARRA INFERIOR FIJA (MÓVIL) ===================== -->
+  <nav class="mobile-bar d-md-none" aria-label="Acciones rápidas">
+    <a href="tel:+240350097016" class="mobile-bar-btn"><i class="bi bi-telephone"></i>Llamar</a>
+    <a href="https://wa.me/240551997403" target="_blank" rel="noopener" class="mobile-bar-btn"><i class="bi bi-whatsapp"></i>WhatsApp</a>
+    <a href="#reservas" class="mobile-bar-cta">Reservar cita</a>
+  </nav>
+
+  <!-- Toast de avisos -->
+  <div class="toast-container position-fixed top-0 end-0 p-3">
+    <div id="appToast" class="toast align-items-center border-0" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="appToastBody"></div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

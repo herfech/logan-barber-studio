@@ -1,0 +1,86 @@
+/* =========================================================
+   Logan Barber Studio · Estilos del panel de administración
+   (se carga después de styles.css y reutiliza sus variables)
+   ========================================================= */
+
+.admin-body { padding-bottom: 0; min-height: 100vh; }
+
+/* Acceso */
+.login-view { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.login-card {
+  width: 100%; max-width: 380px;
+  background: var(--blanco);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 2.25rem;
+}
+
+/* Cabecera */
+.admin-header {
+  position: sticky; top: 0; z-index: 1020;
+  background: rgba(247, 243, 238, .92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--arena);
+  padding: .85rem 0;
+}
+
+/* Indicadores */
+.kpi {
+  background: var(--blanco);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 1.1rem 1.25rem;
+  height: 100%;
+}
+.kpi span { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--piedra); }
+.kpi strong { display: block; font-family: var(--font-display); font-size: 2.25rem; line-height: 1.1; margin-top: .25rem; }
+.kpi-dark { background: var(--tinta); color: var(--crema); }
+.kpi-dark span { color: rgba(247, 243, 238, .6); }
+.kpi-dark strong { color: var(--oro); }
+
+/* Pestañas */
+.admin-tabs { gap: .5rem; border: 0; }
+.admin-tabs .nav-link {
+  border-radius: 999px;
+  border: 1px solid rgba(28, 25, 23, .15);
+  color: var(--tinta);
+  font-weight: 600; font-size: .9rem;
+  padding: .55rem 1.15rem;
+}
+.admin-tabs .nav-link.active { background: var(--tinta); color: var(--crema); border-color: var(--tinta); }
+
+.panel-card {
+  background: var(--blanco);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 1.25rem;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) { .panel-card { padding: 1.75rem; } }
+
+/* Tablas */
+.admin-table { --bs-table-bg: transparent; font-size: .9rem; }
+.admin-table thead th {
+  font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--piedra);
+  border-bottom: 1px solid var(--arena);
+  white-space: nowrap;
+}
+.admin-table td { border-color: var(--arena); }
+.admin-table tr.is-today td { background: rgba(200, 161, 101, .08); }
+.admin-table .cell-sub { display: block; font-size: .78rem; color: var(--piedra); }
+.admin-table a { color: var(--terra); text-decoration: none; }
+.admin-table .form-control, .admin-table .form-select { padding: .4rem .65rem; border-radius: .6rem; font-size: .9rem; }
+.admin-table tr.is-off td:not(:last-child) { opacity: .5; }
+.empty-row td { text-align: center; color: var(--piedra); padding: 2.5rem 1rem; }
+
+/* Estados */
+.status { display: inline-block; font-size: .72rem; font-weight: 700; padding: .25rem .65rem; border-radius: 999px; white-space: nowrap; }
+.status-confirmada { background: #E8EEF8; color: #234A86; }
+.status-completada { background: #E3F1E4; color: #24622D; }
+.status-cancelada  { background: var(--arena); color: var(--piedra); text-decoration: line-through; }
+.status-no_asistio { background: #F8E5E0; color: #8A3320; }
+
+.form-switch .form-check-input:checked { background-color: var(--terra); border-color: var(--terra); }
+.dropdown-menu { border-radius: .85rem; border-color: var(--arena); box-shadow: var(--shadow-soft); font-size: .9rem; }
